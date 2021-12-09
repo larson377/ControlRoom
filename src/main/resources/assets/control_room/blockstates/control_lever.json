@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "control_room:block/control_lever"
+    },
+    "facing=east": {
+      "model": "control_room:block/control_lever",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "control_room:block/control_lever",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "control_room:block/control_lever",
+      "y": 270
+    }
+  }
+}

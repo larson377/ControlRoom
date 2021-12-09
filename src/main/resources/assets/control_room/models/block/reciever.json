@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "control_room:blocks/reciever",
+    "up": "control_room:blocks/reciever",
+    "north": "control_room:blocks/reciever",
+    "east": "control_room:blocks/reciever",
+    "south": "control_room:blocks/reciever",
+    "west": "control_room:blocks/reciever",
+    "particle": "control_room:blocks/reciever"
+  }
+}

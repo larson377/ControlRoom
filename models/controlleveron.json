@@ -1,0 +1,51 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [32, 32],
+	"textures": {
+		"1": "ControlLeverOffTexture",
+		"particle": "block/texture"
+	},
+	"elements": [
+		{
+			"name": "Handle",
+			"from": [7, -5, 5],
+			"to": [9, 2, 7],
+			"rotation": {"angle": -45, "axis": "x", "origin": [0, 0, 0]},
+			"faces": {
+				"north": {"uv": [0, 5, 1, 8.5], "texture": "#1"},
+				"east": {"uv": [1, 5, 2, 8.5], "texture": "#1"},
+				"south": {"uv": [2, 5, 3, 8.5], "texture": "#1"},
+				"west": {"uv": [3, 5, 4, 8.5], "texture": "#1"},
+				"up": {"uv": [7, 2, 6, 1], "texture": "#1"},
+				"down": {"uv": [7, 2, 6, 3], "texture": "#1"}
+			}
+		},
+		{
+			"name": "Base",
+			"from": [5, 0, 4],
+			"to": [11, 2, 12],
+			"faces": {
+				"north": {"uv": [4, 5, 7, 6], "texture": "#1"},
+				"east": {"uv": [0, 4, 4, 5], "texture": "#1"},
+				"south": {"uv": [6, 0, 9, 1], "texture": "#1"},
+				"west": {"uv": [4, 4, 8, 5], "texture": "#1"},
+				"up": {"uv": [3, 4, 0, 0], "texture": "#1"},
+				"down": {"uv": [6, 0, 3, 4], "texture": "#1"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 4.75, 0],
+			"scale": [0.67, 0.67, 0.67]
+		}
+	},
+	"groups": [
+		{
+			"name": "Object",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [0, 1]
+		}
+	]
+}

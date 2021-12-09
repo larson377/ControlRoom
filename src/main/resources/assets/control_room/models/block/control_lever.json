@@ -1,0 +1,8 @@
+{
+  "parent": "control_room:custom/controlleveroff",
+  "textures": {
+    "all": "control_room:blocks/controlleverofftexture",
+    "particle": "control_room:blocks/controlleverofftexture",
+    "0": "control_room:blocks/controlleverofftexture"
+  }
+}
